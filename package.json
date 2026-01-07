@@ -1,0 +1,22 @@
+{
+  "name": "frontend-monorepo",
+  "private": true,
+  "packageManager": "npm@11.4.2",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "turbo run preview",
+    "clean": "turbo run clean",
+    "clean:all": "turbo run clean && rm -rf node_modules package-lock.json"
+  },
+  "devDependencies": {
+    "rimraf": "^6.1.2",
+    "turbo": "^2.0.0",
+    "@vitejs/plugin-react": "^5.1.1",
+    "vite": "^7.2.4"
+  }
+}
