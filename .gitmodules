@@ -1,0 +1,9 @@
+[submodule "apps/main"]
+	path = apps/main
+	url = https://github.com/VigneshBalaji96/main-app.git
+[submodule "apps/login"]
+	path = apps/login
+	url = https://github.com/VigneshBalaji96/login-app.git
+[submodule "apps/profile"]
+	path = apps/profile
+	url = https://github.com/VigneshBalaji96/profile-app.git
