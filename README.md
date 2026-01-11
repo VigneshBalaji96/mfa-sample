@@ -73,6 +73,9 @@ npm run build
 Step 8: Start the application
 npm start
 
+Step 9: To start app in dev
+build:watch
+
 🌐 Application URL
 
 Once started, the application will be available at:
