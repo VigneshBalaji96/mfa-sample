@@ -12,6 +12,11 @@
       "dependsOn": ["^build"],
       "outputs": ["dist/**"]
     },
+    "build:watch": {
+      "cache": false,
+      "persistent": true,
+      "outputs": ["dist/**"]
+    },
     "preview": {
       "dependsOn": ["build"],
       "cache": false,
